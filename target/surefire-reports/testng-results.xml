@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T14:53:55Z" name="Command line suite" finished-at="2021-12-22T14:54:05Z" duration-ms="10676">
+    <groups>
+      <group name="Smo">
+        <method signature="LoginTest.AddValidAccount()[pri:4, instance:test.LoginTest@5c909414]" name="AddValidAccount" class="test.LoginTest"/>
+      </group> <!-- Smo -->
+      <group name="bonding">
+        <method signature="LoginTest.AddPasswordEmpty()[pri:2, instance:test.LoginTest@5c909414]" name="AddPasswordEmpty" class="test.LoginTest"/>
+        <method signature="LoginTest.AddUserNameAndPasswordEmpty()[pri:1, instance:test.LoginTest@5c909414]" name="AddUserNameAndPasswordEmpty" class="test.LoginTest"/>
+        <method signature="LoginTest.AddUserNameEmpty()[pri:3, instance:test.LoginTest@5c909414]" name="AddUserNameEmpty" class="test.LoginTest"/>
+      </group> <!-- bonding -->
+    </groups>
+    <test started-at="2021-12-22T14:53:55Z" name="Command line test" finished-at="2021-12-22T14:54:05Z" duration-ms="10676">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:53:55Z" name="startDriver" finished-at="2021-12-22T14:54:00Z" duration-ms="5023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="AddUserNameAndPasswordEmpty()[pri:1, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:00Z" name="AddUserNameAndPasswordEmpty" finished-at="2021-12-22T14:54:01Z" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUserNameAndPasswordEmpty -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:01Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:01Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddUserNameAndPasswordEmpty status=SUCCESS method=LoginTest.AddUserNameAndPasswordEmpty()[pri:1, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method signature="AddPasswordEmpty()[pri:2, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:01Z" name="AddPasswordEmpty" finished-at="2021-12-22T14:54:02Z" duration-ms="869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPasswordEmpty -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:02Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddPasswordEmpty status=SUCCESS method=LoginTest.AddPasswordEmpty()[pri:2, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method signature="AddUserNameEmpty()[pri:3, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:02Z" name="AddUserNameEmpty" finished-at="2021-12-22T14:54:02Z" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUserNameEmpty -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:02Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddUserNameEmpty status=SUCCESS method=LoginTest.AddUserNameEmpty()[pri:3, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method signature="AddValidAccount()[pri:4, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:02Z" name="AddValidAccount" finished-at="2021-12-22T14:54:03Z" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddValidAccount -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:03Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddValidAccount status=SUCCESS method=LoginTest.AddValidAccount()[pri:4, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method signature="LogOut()[pri:5, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:03Z" name="LogOut" finished-at="2021-12-22T14:54:04Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:04Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOut status=SUCCESS method=LoginTest.LogOut()[pri:5, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method signature="clickBackBrowser()[pri:6, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:04Z" name="clickBackBrowser" finished-at="2021-12-22T14:54:05Z" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBackBrowser -->
+        <test-method is-config="true" signature="screenShootsOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:05Z" name="screenShootsOnFailure" finished-at="2021-12-22T14:54:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickBackBrowser status=SUCCESS method=LoginTest.clickBackBrowser()[pri:6, instance:test.LoginTest@5c909414] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShootsOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:test.LoginTest@5c909414]" started-at="2021-12-22T14:54:05Z" name="stopDriver" finished-at="2021-12-22T14:54:05Z" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
