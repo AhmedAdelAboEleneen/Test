@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="FarmBoss Dashboard Regression Suite" >
-    <groups>
-        <run>
-            <include name="Smo" />
-        </run>
-    </groups>
-    <test name="Test">
+<suite name="Regression Suite" >
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="Smo" />-->
+<!--        </run>-->
+<!--    </groups>-->
+    <test name="Login Suite Test">
         <classes>
             <class name="test.LoginTest"/>
         </classes>

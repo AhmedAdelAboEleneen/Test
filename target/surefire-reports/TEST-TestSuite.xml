@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="5.034" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="5.172" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml test -Pregression"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Pregression"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,10 +65,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.LoginTest" name="AddUserNameAndPasswordEmpty" time="0.818"/>
-  <testcase classname="test.LoginTest" name="AddPasswordEmpty" time="0.869"/>
-  <testcase classname="test.LoginTest" name="AddUserNameEmpty" time="0.914"/>
-  <testcase classname="test.LoginTest" name="AddValidAccount" time="0.933"/>
-  <testcase classname="test.LoginTest" name="LogOut" time="0.685"/>
-  <testcase classname="test.LoginTest" name="clickBackBrowser" time="0.815"/>
+  <testcase classname="test.LoginTest" name="AddUserNameAndPasswordEmpty" time="0.929"/>
+  <testcase classname="test.LoginTest" name="AddPasswordEmpty" time="0.918"/>
+  <testcase classname="test.LoginTest" name="AddUserNameEmpty" time="0.771"/>
+  <testcase classname="test.LoginTest" name="AddValidAccount" time="0.957"/>
+  <testcase classname="test.LoginTest" name="LogOut" time="0.628"/>
+  <testcase classname="test.LoginTest" name="clickBackBrowser" time="0.969"/>
 </testsuite>
