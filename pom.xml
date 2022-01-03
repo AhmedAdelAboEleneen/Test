@@ -53,7 +53,7 @@
                 <version>2.22.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>TestNg.xml</suiteXmlFile>
+                        <suiteXmlFile>Test.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
